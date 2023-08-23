@@ -1,0 +1,258 @@
+.app-larurles {
+    display: flex;
+    background-color: black;
+    padding: 30px 60px;
+}
+.app-larurles-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+ 
+    width: 100%;
+    flex-direction: column  ;
+}
+.app-larurles-layout {
+    flex: 1;
+}
+.app-larurles-header  h3 {
+    /* width: 220px;
+     */
+     width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    
+    /* H5 23px Cormorant Upright */
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    /* FFFFFF */
+    
+    color: #FFFFFF;
+    
+}
+.app-larurles-image {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+.app-larurles-image img {
+    width: 50px;
+    height: 14px;
+
+}
+.app-larurles-header h1 {
+    width: 100%;
+height: 83px;
+
+/* H2 64px Cormorant Upright */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* DCCA87 */
+
+color: #DCCA87;
+}
+.app-larurles-container {
+    display: flex;
+    flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: flex-start;
+   /* width: 100%; */
+   gap: 10px;
+   /* width: 60%; */
+   flex: 1;
+
+}
+.app-larurles-box {
+
+    width: 300px;
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    
+    /* margin: 10px; */
+
+}
+.app-larules-box-image {
+    /* width: 140px; */
+    width: 100%;
+margin-right: 10px;
+}
+.app-larules-box-image img {
+    /* width: 90px; */
+    /* height: 90px;
+     */
+     width: 100%;
+     height: 100%;
+     margin-right: 10px;
+    object-fit: cover;
+}
+/* .app-larurles-box-conent {
+    width: 0px;
+
+} */
+.app-larurles-box-conent h3 {
+    
+width: 143px;
+height: 30px;
+
+/* H5 23px Cormorant Upright */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+/* margin-bottom: 2px; */
+
+/* DCCA87 */
+
+color: #DCCA87;
+
+}
+.app-larurles-box-conent p {
+    width: 190px;
+height: 56px;
+
+/* Body 16px Regular */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+margin-top: 5px;
+/* or 28px */
+
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+
+color: #AAAAAA;
+}
+.app-larurles-box-image-g {
+    /* width: 40%; */
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* margin-left: 50px; */
+}
+.app-larurles-box-image-g img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:450px) {
+.app-larurles {
+        display: flex;
+        flex-direction: column;
+         /* justify-content: flex-start;
+        align-items: flex-start;   */
+    }
+    /* .app-larurles-layout {
+        display: flex;
+        flex-direction: column;
+    } */
+    .app-larurles-header {
+        /* display: flex; */
+        /* align-items: flex-end;
+        justify-content: flex-end   ; */
+        /* flex-direction: column; */
+        /* width: 70%; */
+        /* margin-top: 40px;
+        width: 100%; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        /* margin-top: 80px; */
+        /* padding-top: 80px; */
+    }
+    .app-larurles-header h3 {
+        width:200px;
+        /* text-align: left; */
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* .app-larurles-image {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    
+        width: 100px; 
+    } */
+    .app-larurles-header h1 {
+        font-size: 25px;
+         display: flex; 
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 10px;
+        justify-content: flex-start;
+        /* width: 100%; */
+    }
+    .app-larurles-container {
+        display: flex;
+        gap: 20px;
+        /* flex-direction: column; */
+        justify-content: flex-start;
+        /* margin-left: 30px; */
+        /* width: 100%; */
+        margin-top: 50px;
+        align-items: flex-start;
+        margin-right: 25px;
+
+        /* align-items: center; */
+    }
+    .app-larurles-box {
+        width: 100%;
+        /* margin-left: 60px; */
+
+    }
+    .app-larurles-container .app-larules-box-image img {
+        width: 60px;
+    }
+    .app-larurles-box-image-g {
+        width: 250px;
+        /* display: flex; */
+        
+        margin-top: 20px;
+    margin-right: 80px;
+        
+
+    }
+    .app-larurles-box-image-g img {
+    width: 100%;
+    height: 100%;
+
+ 
+    }
+}

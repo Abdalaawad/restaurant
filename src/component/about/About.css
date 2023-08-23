@@ -1,0 +1,248 @@
+.about {
+ padding: 60px 300px;
+ background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+ 
+
+
+}
+.about-g-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    
+}
+
+.about-g-image img{
+z-index: 0;
+width: 391px;
+height: 415px;
+left: 765px;
+top: 1421px;
+
+
+
+}
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    /* position: fixed; */
+    width: 100%;
+    
+    /* padding: 50px; */
+}
+.about-about-us {
+    flex: 1;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: left;
+}
+.about-about-us h1,
+.about-ourhistory h1{
+    width: 252px;
+height: 83px;
+margin-bottom: 100px;
+
+/* H2 64px Cormorant Upright */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+text-align: right;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* DCCA87 */
+
+color: #DCCA87;
+
+}
+.about-about-us img,
+.about-ourhistory img {
+    width: 30px;
+    margin: 15px 0 ;
+    height: 10px;
+}
+.about-about-us p,
+.about-ourhistory p {
+    width: 423px;
+height: 84px;
+
+/* Body 16px Regular */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+/* or 28px */
+
+/* text-align: right; */
+margin-bottom: 20px;
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+
+color: #AAAAAA;
+
+
+
+}
+.btn {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 141px;
+height: 44px;
+margin: 20px 0;
+border: none;
+outline: none;
+/* DCCA87 */
+
+background: #DCCA87;
+cursor: pointer;
+color: black;
+}
+.about-knife-image {
+    margin: 0 40px;
+    width: 300px;
+
+}
+.about-knife-image img {
+    width: 150px;
+    height: 950px;
+    left: 1002px;
+    top: 1277px;
+    
+    
+}
+.about-ourhistory {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: right;
+}
+@media screen and (max-width:450px) {
+    .about {
+        padding-top: 70px;
+    }
+    .about-box {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-about-us {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 500px;
+        text-align: left;
+ 
+    }
+    .about-ourhistory {    
+           display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 500px;
+        text-align: left;
+         
+    }
+   .about-ourhistory h1,
+   .about-about-us h1 {
+text-align: left;
+
+   }
+
+   .about-ourhistory p,
+   .about-about-us p {
+    width: 350px;
+    font-size: 14px;
+    
+
+   }
+   .about-knife-image img{
+    width: 100px;
+    height: 600px;
+    
+   }
+   .about-g-image {
+    margin-left: 30px;
+    /* position: absolute; */
+    align-items: center;
+    justify-content: flex-start;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; */
+   }
+   .about-g-image img {
+    width: 300px;
+    height: 300px;
+   }
+
+}
+@media screen and (min-width:650px ) and (max-width: 651px) {
+    .about-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-about-us ,
+    .about-ourhistory {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .about-ourhistory h1,
+    .about-about-us h1 {
+        text-align: left;
+    }
+    .about-knife-image img{
+        width: 100px;
+        height: 600px;
+        
+       }
+       .about-g-image {
+        margin-left: 30px;
+        /* position: absolute; */
+        align-items: center;
+        justify-content: center;
+        /* display: flex;
+        align-items: flex-end;
+        justify-content: flex-start; */
+       }
+       .about-g-image img {
+        width: 300px;
+        height: 300px;
+       }
+       .about-knife-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+    
+}

@@ -1,0 +1,9 @@
+export { default as About } from "./about/About";
+export { default as Cheef } from "./cheef/Cheef";
+export { default as Drinks } from "./drinks/Drinks";
+export { default as Footer } from "./footer/Footer";
+export { default as Gallery } from "./gallery/Gallery";
+export { default as Header } from "./header/Header";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Video } from "./video/Video";
+export { default as Specialmenu } from "./specialmenu/Specialmenu";

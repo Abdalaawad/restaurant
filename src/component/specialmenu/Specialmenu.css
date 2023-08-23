@@ -1,0 +1,179 @@
+.app-specailmenu {
+    background-color: black;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.app-specialmenu-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.app-specialmenu-heading h3 {
+    width: 100%;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 90%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+
+}
+.app-specialmenu-heading img {
+    width: 50px;
+    height: 15px;
+}
+.app-specialmenu-heading h1 {
+    width: 100%;
+height: 90px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+/* DCCA87 */
+
+color: #DCCA87;
+
+
+
+}
+.app-specialmenu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-spcial-image {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 40px;
+}
+.app-spcial-image  img {
+    width: 300px;
+}
+.app-specialmenu-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
+.app-heading {
+    
+width: 243px;
+height: 58px;
+
+/* H3 45px Cormorant upright Semi */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.app-specialmenu-btn {
+    margin-top: 50px;
+}
+.special-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    
+    width: 136px;
+    height: 44px;
+    
+    /* DCCA87 */
+    
+    background: #DCCA87;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    
+
+
+}
+@media screen and (max-width:450px) {
+    .app-specailmenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .app-specialmenu-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .app-heading {
+        font-size: 20px;
+    }
+ .app-spcial-image {
+    width: 300px;
+    margin-top: 30px;
+ }
+ .app-spcial-image img  {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+ }
+ .app-specialmenu-wine {
+    /* margin-top: 30px; */
+    width: 300px;
+ }
+ .app-specialmenu-heading {
+font-size: 10px;
+width: 100%;
+ }
+
+
+    
+}

@@ -1,0 +1,164 @@
+.app-description {
+    background-color: black;
+    width: 100%;
+    padding: 30px 60px;
+
+
+}
+.app-description-heading {
+background-color: #0C0C0C;
+    /* border: 1px solid #555; */
+    display: flex;
+width: 80%;
+margin: 20px auto;
+height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-description-heading h2 {
+    width: 104px;
+height: 30px;
+
+/* H5 23px Cormorant Upright */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+
+color: #FFFFFF;
+}
+.app-description-image img {
+    width: 50px;
+    height: 10px;
+}
+.app-description-heading h1 {
+    width: 776px;
+height: 83px;
+
+/* H2 64px Cormorant Upright */
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* DCCA87 */
+
+color: #DCCA87;
+
+}
+.app-description-heading p {
+    
+width: 250px;
+height: 28px;
+margin-top: 20px;
+/* Body 16px Regular */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+
+}
+
+.app-description-input {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-description-input input {
+    width: 400px;
+    height: 45px;
+    margin-right: 10px;
+    /* color: gray;
+     */
+     /* border-radius: 5px; */
+     background-color: black;
+     
+    border: 1px solid #F5EFDB;
+
+}
+.app-description-input input::placeholder {
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 30px;
+
+}
+
+.app-description-input button {
+    
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 10px;
+
+width: 129px;
+height: 44px;
+text-transform: capitalize;
+cursor: pointer;
+
+/* DCCA87 */
+
+background: #DCCA87;
+/* DCCA87 */
+
+border: 1px solid #DCCA87;
+
+}
+@media screen and (max-width:450px) {
+    .app-description-heading {
+        width: 100%;
+    }
+    .app-description-heading h1 {
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.app-description-heading p {
+    font-size: 15px;
+}
+.app-description-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.app-description-input input {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.app-description-input button {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+}

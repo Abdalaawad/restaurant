@@ -1,0 +1,10 @@
+.App {
+    overflow: hidden;
+}
+.app__bg {
+    background: url('./assets/Mask\ Group.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }     
